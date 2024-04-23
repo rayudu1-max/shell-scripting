@@ -2,7 +2,7 @@
 
 echo "enter state names"
 
-read States(3)
+read States[]
 
 echo "First state ${States[0]}"
 echo "First state ${States[1]}"
