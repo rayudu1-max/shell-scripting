@@ -12,7 +12,7 @@ else
     echo "you are a super user"
 fi
 
-dnf install mysqll -y
+dnf install mysql -y
 
 if [ $? -ne 0 ]
 then 
@@ -22,7 +22,7 @@ else
     echo "installation status of MYSQL....SUCCESS"
 fi
 
-dnf install gits -y
+dnf install git -y
 
 if [ $? -ne 0 ]
 then
