@@ -1,8 +1,6 @@
 #!/bin/bash
 
-echo "enter state names"
-
-read States[]
+States=("AP" "TS" "TN" "KL")
 
 echo "First state ${States[0]}"
 echo "First state ${States[1]}"
