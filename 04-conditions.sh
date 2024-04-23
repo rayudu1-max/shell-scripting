@@ -4,7 +4,7 @@ echo "Enter the number"
 
 read NUMBER
 
-if[ $NUMBER -gt 15 ]
+if [ $NUMBER -gt 15 ]
 then
     echo "$NUMBER is greater than 15"
 else
