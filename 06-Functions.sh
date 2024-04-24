@@ -20,8 +20,8 @@ else
     echo "you are a super user"
 fi
 
-dnf install mysqll -y
+dnf install mysql -y
 VALIDATE $? "MYSQL installation"
 
-dnf install gitt -y
+dnf install git -y
 VALIDATE $? "git installation"
